@@ -1,82 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Kevin Conway's Portfolio</title>
-    <script src="./script.js"> </script>
-    <link href="https://fonts.googleapis.com/css?family=Arimo|Montserrat" rel="stylesheet">
-
+ <title>Kevin Conway's Portfolio</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <link rel="stylesheet" href="animate.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body style="background-image: url(images/otis_redding_@2X.png); font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;">
-    <nav style="background-color: #fff; padding: 0px;" class="navbar border navbar-light bg-light">
-        <!-- main heading -->
-
-        <!-- throughout this project, I used the bootstrap col-xx-xx classes, as well as inline css to style. Because this was in our class assignments, I figured that was ok. If not, please let me know.  -->
-        <div class="navbar-brand text-center col-lg-3 col-md-4 col-sm-12 col-xs-0" style="background-color: #191970; padding: 10px; margin-right: 0px;">
-                <a href="index.html">
-                    <h1 style="color: #fff; font-family: 'Arimo', Times, serif; ">Kevin Conway</h1>
-                </a>
-    
-            </div>
-        <div class="col-lg-2 col-md-3 col-sm-0 col-xs-0 "></div>
-
-        <!-- nav buttons -->
-
-        <ul class="nav col-xs-12 col-sm-12 col-lg-4 col-md-5 justify-content-center">
-                <li class="nav-item"><a class="nav-link text-secondary" href="index.html">About</a></li>
-                <li class="nav-item"><a class="nav-link text-secondary" href="portfolio.html">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link text-secondary" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <br>
-
-
-
-        <div class="container bg-light">
-            <br>
-            <div class="page-header">    
-            <h2 style="color: #191970;text-align: center;">About Me</h2>
-            <div style="background-color: lightgray; height: 3px; width: 100%;"></div>
-            <br>
-            </div>
-                <div class="panel panel-default col-10 col-xl-10">
-                  <div class="panel-body"></div>
-                </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                <div>
-                    <img style="float: left; padding-right: 20px;" src="images/kevinworkpic.png" alt="Kevin Conway">
-                </div>
-                <div class="pull-left">
-
-                        <p>
-                            My name is Kevin Conway and I am an aspiring web developer. I am currently enrolled in the Web Development Bootcamp at the University of North Carolina Charlotte. Once I complete this course, I will have the skills necessary to be a junior web developer.    
-                        </p>
-                        <p>
-                            In 2014, I graduated from Mississippi State University with a Bachelor's in History.  I am currently employed at Williams Buick GMC as a Sales Professional. In total, I have been working in sales for almost three and a half years.
-                        </p>
-                
-                        <p>
-                            I feel that my background in sales as well as my education make me an ideal candidate for a web developer position. My history degree required a great deal of research and instilled in me powerful critical thinking and problem solving skills, an appreciation for proper documentation, and a recognition of the power of clear and concise presentation. As a salesman, I have to be persuasive, match my product with customers' needs, and collaborate with many different parties to structure a successful deal. In my spare time, I read sales books, record myself speaking, and otherwise work on improving my sales skills. I am always working on becoming a better person, and for that reason, as well as all the above reasons, I believe I would be an ideal web developer. You can see samples of my work through the "Portfolio" link above, and you can get in touch with me by submitting your info through "Contact" above.
-                        </p>
-
-                </div>
-                </div>
-            </div>
-            <br>
+<body>
+    <div class="buttonsAndContent">
+        <div>
+                <p>See My Work</p>
+                <div class="animated pulse"> <i class="fa fa-chevron-left" style="font-size:48px;" ></i></div>
         </div>
-        <br>
-
-        <footer style="height: 50px; color: #fff; border-top: 3px solid #191970; padding-top: 10px;" class="app-footer bg-dark text-center">
-            <div class="ml-auto">© Copyright</div>
-
-        </footer>
-
-
-
-
-    
+        <div class="allContent">
+            <div class="kevName animated fadeInDown">
+                Kevin Conway
+            </div>
+        <p class="writeup animated fadeInUp">
+            Fullstack Web Developer. Overall cool guy.
+        </p>
+        <img src="images/kevinworkpic.png" style="border-radius: 400px;" class="animated fadeInUp">
+        </div>
+        <div>
+                <p>More About Me</p>
+                <div class="animated pulse"> <i class="fa fa-chevron-right" style="font-size:48px;" ></i></div>
+        </div>
+    </div>
+<script src="./script.js"></script>
 </body>
-</html>
