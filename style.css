@@ -16,7 +16,10 @@ body {
 
 .portShow {
     text-align: center;
-    width: 40%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .allContent * {
@@ -53,4 +56,14 @@ color: #336699;
 .contactContent {
     margin-top: 10%;
     margin-bottom: 10%;
+}
+
+.portImg {
+    width: 10em;
+    height: 10em;
+}
+
+.portCard {
+    margin: 1em;
+    background: #f3f3f3;
 }
