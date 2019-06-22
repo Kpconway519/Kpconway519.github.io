@@ -10,6 +10,10 @@ body {
 }
 
 .allContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 40%;
 }
@@ -65,9 +69,18 @@ color: #336699;
 
 .portCard {
     margin: 1em;
-    background: #f3f3f3;
+    padding-top: 5px;f
+
 }
 
 .btn {
     margin: 4px;
+}
+
+.contactLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #336699;
 }
