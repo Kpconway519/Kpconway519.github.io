@@ -43,3 +43,12 @@ let forwardSlide = {
 let backSlide = {
 
 }
+
+// populate copyright footer
+const populateFooter = () => {
+    const cFooter = document.getElementById('copyrightFooter');
+    const year = new Date;
+    cFooter.innerText = `© ${year.getFullYear()} Kevin Conway`;
+}
+
+populateFooter();
